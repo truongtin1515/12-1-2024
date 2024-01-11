@@ -1,9 +1,17 @@
 body{
+    box-sizing: border-box;
     background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    color:black;
 }
-h1{
+.dark-mode {
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    color: white;
+  }
+
+
+ h1{
     text-align: center;
-    color: #f8f9fa;
+    color: #eeedf3;
     font-family: "Cormorant Garamond", serif;
 }
 table{
@@ -14,23 +22,26 @@ table{
 }
 table td{
   padding-left: 10px;
-  color:rgb(10, 8, 1);
+  color:rgb(40, 11, 117);
   font-weight: bold;
   border: 2px solid black;
   border-collapse: collapse;
 }
 input[type=text],select,textarea{
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    color:rgb(40, 11, 117);
     border-radius: 10px;
     font-weight: bold;
     width: 90%;
 }
 input[type=password]{
+    color:rgb(40, 11, 117);
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     border-radius: 10px;
     width: 90%;
 }
 input[type=url]{
+    color:rgb(40, 11, 117);
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     width: 76%;
     border-radius: 10px;
@@ -38,7 +49,7 @@ input[type=url]{
 
 .button1{
     padding:10px;
-        text-align: center;
+    text-align: center;
 }
 .custom-btn {
     width: 100px;

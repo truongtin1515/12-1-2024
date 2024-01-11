@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css" class="href">
     <title>Document</title>
 </head>
-<body>
-        <h1>ĐĂNG KÝ THÀNH VIÊN CLB YÊU NHẠC </h1> 
+<body>   
+        <h1>ĐĂNG KÝ THÀNH VIÊN CLB YÊU NHẠC  <i class='bx bxs-moon' onclick="myFunction()" style="color:yellow; float: right; font-size: 40px;"></i></h1>
     <table>
         <tr>
             <td>Ho ten</td>
@@ -16,7 +17,7 @@
         </tr>
         <tr>
             <td>Ten dang nhap</td>
-            <td><input type="text" name="" id="" value="tenfdangnhap"></td>
+            <td><input type="text" name="" id="" value="tendangnhap"></td>
         </tr>
         <tr>
             <td>Mat khau </td>
@@ -59,5 +60,11 @@
             </td>
         </tr>
     </table>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
 </body>
 </html>
