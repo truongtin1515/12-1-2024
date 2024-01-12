@@ -1,0 +1,30 @@
+.menu{
+    width: 100%;
+    height: auto;
+    background-color:brown;
+    text-align: center;
+}
+.menu a{
+    color:#ffff;
+    display: inline-block;
+    text-decoration: none;
+    padding:15px 20px;
+}
+.menu a:hover{
+    background-color: rgb(180, 180, 219);
+}
+.txt{
+    width: 90%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+table{
+    margin: auto;
+    width: 700px;
+    border: 5px solid brown;
+    background-color: pink;
+    padding: 5px;
+}

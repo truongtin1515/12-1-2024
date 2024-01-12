@@ -1,0 +1,88 @@
+body{
+    box-sizing: border-box;
+    background: url(./banner.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 45px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin-left:100px;
+    display: inline-block;
+}
+.container1{
+    float: left;
+    width: 200px;
+    height: 300px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-right:15px;
+    margin-top: 10px;
+    background-color: rgb(209, 226, 241);
+    border-radius: 5px;
+    display:inline;
+    overflow: hidden; /* Ẩn nội dung vượt ra khỏi phần tử */
+    transition: transform 0.3s;
+    /* Thêm hiệu ứng chuyển động cho trạng thái hover */
+}
+.container1:hover{
+    transform: scale(1.2);
+}
+.list{
+    width: 150px;
+    margin: auto;
+}
+.list img{
+    width:150px;
+}
+.list1{
+    margin-left:10px;
+}
+.list2 p{
+    width: 90px;
+    margin-top:5px;
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(203, 247, 247);
+}
+strong {
+    color:red;
+}
+.list3{
+    display: inline-block;
+    position: relative;
+}
+  .strong {
+    color:red;
+    display: inline-block;
+  }
+  .inline{
+   color:red;
+   font-size:14px;
+   text-decoration: underline;
+   position: relative;
+   top: -0.3em; /* Dịch chữ "đ" lên trên */
+   display: inline-block;
+   margin-left: 1px; /* Tạo khoảng cách giữa chữ "đ" và số */
+  }
+  .list6{
+  margin-left:15px;
+  font-size: 15px;
+  color:orange;
+  border-radius: 3px;
+  background-color: antiquewhite;
+}
+.list4{
+    margin-top:10px;
+}
+.list4 span{
+   font-size: 13px; 
+   color:blue
+}

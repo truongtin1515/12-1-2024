@@ -1,10 +1,10 @@
 body{
     box-sizing: border-box;
-    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-    color:black;
+    background-color: #ffff;
+    color:#000000;
 }
 .dark-mode {
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-color: #000000;
     color: white;
   }
 
@@ -16,7 +16,8 @@ body{
 }
 table{
   border: 5px solid rgb(7, 21, 148);
-  width: 100%;
+  width: 700px;
+  margin: auto;
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   border-collapse: collapse;
 }
